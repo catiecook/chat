@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+html {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  font-family: 'Lora', serif;}
+
+form {
+  padding: 1%;
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+}
+
+input {
+  width: 80%;
+  padding: 1%;
+  margin: 1%;
+  border: 0;
+  border-bottom: 1px solid lightblue;
+}
+
+form button {
+  width: 9%;
+  color: white;
+  background-color: hsla(203, 44%, 59%, 1);
+  padding: 1%;
+  border: 0;
+  /*-webkit-appearance: none;*/
+}
+
+form .name {
+  width: 9%;
+  margin-right: 90%;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+td:nth-child(odd) {
+  font-weight: bolder;
+  padding: 2%;
+  margin-right: 20px;
+  border: 0;
+  border-bottom: 3px solid lightblue;
+}
+
+td:nth-child(even) {
+  margin-left: 5%;
+  border: 0;
+}
+
+h1 {
+  font-family: 'Bahiana', cursive;
+  font-size: 3em;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
